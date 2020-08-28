@@ -1,6 +1,6 @@
 // Code your solution here
 function findMatching(drivers, string) {
-  let matchingDrivers = drivers.filter(d => d.toLowerCase() === string.toLowerCase();)
+  let matchingDrivers = drivers.filter(d => d.toLowerCase() === string.toLowerCase())
   return matchingDrivers;
 }
 
